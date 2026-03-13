@@ -10,7 +10,7 @@ const repoOwner = process.env.GITHUB_REPO_OWNER;
 const repoName = process.env.GITHUB_REPO_NAME;
 
 // --- Team Members ---
-const teamMembers = ["mushkan27", "Nepsoul"];
+const teamMembers = ["mushkan27"];
 
 // --- Function to get PR count for a user today ---
 async function getPRCount(user) {
